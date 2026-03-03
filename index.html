@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tallyho | Professional Restaurant Inventory</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-flex">
+            <div class="logo"><img src="TallyHo_Logo.png" alt="TallyHo" style="height: 44px;"></div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#preview">The Dashboard</a></li>
+                <li><a href="#onboarding">48-Hour Setup</a></li>
+                <li><a href="#" class="btn-sm">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Inventory that actually works in the walk-in.</h1>
+            <p>No WiFi? No problem. Tallyho is the iPad-optimized tool built for the "black holes" of independent restaurants.</p>
+            <div class="hero-btns">
+                <a href="#onboarding" class="btn-primary">Start Your 48-Hour Setup</a>
+                <a href="#preview" class="btn-secondary">See the Dashboard</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container grid-3">
+            <div class="feature-card">
+                <div class="icon">📶</div>
+                <h3>Offline-First</h3>
+                <p>Count your entire dry storage without a bar of service. We sync automatically the moment you're back on the line.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📱</div>
+                <h3>iPad Optimized</h3>
+                <p>Big tap targets and swipe navigation designed for wet hands and fast-paced kitchen environments.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">⏱️</div>
+                <h3>Shelf-to-Sheet</h3>
+                <p>We build your custom walkthrough to match your physical racks. No more hunting through lists for a bottle of oil.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="preview" class="app-preview">
+        <div class="container">
+            <div class="preview-header">
+                <h2>The Dashboard</h2>
+                <p>Powerful analytics that take 30 seconds to understand.</p>
+            </div>
+            
+            <div class="mock-ui">
+                <div class="ui-nav">
+                    <div class="ui-tabs">
+                        <span class="active">Summary</span>
+                        <span>Track Inventory</span>
+                        <span>Food Cost</span>
+                    </div>
+                    <div class="ui-status">● Synced</div>
+                </div>
+                
+                <div class="ui-body">
+                    <div class="ui-stats-grid">
+                        <div class="stat-card">
+                            <label>TOTAL INVENTORY VALUE</label>
+                            <div class="value">$42,546.84</div>
+                            <div class="sub">385 items tracked</div>
+                        </div>
+                        <div class="stat-card">
+                            <label>LOCATIONS</label>
+                            <div class="value">14</div>
+                            <div class="sub">storage areas</div>
+                        </div>
+                        <div class="stat-card urgent">
+                            <label>ZERO STOCK ITEMS</label>
+                            <div class="value">66</div>
+                            <div class="sub">need recount or restock</div>
+                        </div>
+                    </div>
+
+                    <div class="ui-table-preview">
+                        <div class="table-header">
+                            <span>Item</span>
+                            <span>Qty</span>
+                            <span>Category</span>
+                            <span>Value</span>
+                        </div>
+                        <div class="table-row">
+                            <span>#100 Sam's printed food trays (case)</span>
+                            <span>24 CS</span>
+                            <span class="tag">Paper & Supplies</span>
+                            <span class="val-green">$1,150.80</span>
+                        </div>
+                        <div class="table-row">
+                            <span>1 1/2 oz souflles cups (case)</span>
+                            <span>1.25 CS</span>
+                            <span class="tag">Paper & Supplies</span>
+                            <span class="val-green">$46.28</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="onboarding" class="onboarding">
+        <div class="container">
+            <h2>The 48-Hour Promise</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <h4>Upload</h4>
+                    <p>Send us your current inventory list (even a photo of a clipboard).</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <h4>We Build</h4>
+                    <p>Our team maps your items to a custom shelf-to-sheet flow.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <h4>You Count</h4>
+                    <p>48 hours later, your iPad is ready to go. No manual data entry required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tallyho.io - Built for the basement. Optimized for the iPad.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
